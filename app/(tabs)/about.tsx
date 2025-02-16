@@ -1,13 +1,13 @@
 import { View, Text, StyleSheet } from "react-native";
 import React from "react";
 
-const about = () => {
+export default function AboutScreen() {
   return (
     <View style={styles.container}>
       <Text style={styles.text}>About screen</Text>
     </View>
   );
-};
+}
 
 const styles = StyleSheet.create({
   container: {
@@ -20,5 +20,3 @@ const styles = StyleSheet.create({
     color: "#fff",
   },
 });
-
-export default about;

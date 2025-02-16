@@ -4,18 +4,14 @@ export default function RootLayout() {
   return (
     <Stack>
       <Stack.Screen
-        name="index"
+        name="(tabs)"
         options={{
+          headerShown: false,
           headerTitle: "Sticker Smash",
           headerLeft: () => <></>,
         }}
       />
-      <Stack.Screen
-        name="about"
-        options={{
-          headerTitle: "About",
-        }}
-      />
+      <Stack.Screen name="+not-found" />
     </Stack>
   );
 }

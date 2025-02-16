@@ -10,7 +10,7 @@ export default function NotFoundScreen() {
         }}
       />
       <View style={styles.container}>
-        <Link href="/" style={styles.button}>
+        <Link href="/(tabs)/index" style={styles.button}>
           Go back to Home Screen!
         </Link>
       </View>
